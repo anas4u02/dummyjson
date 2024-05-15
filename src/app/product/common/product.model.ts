@@ -1,6 +1,6 @@
-export class Product {
+export class ProductDto {
   title: string;
-  description?:string;
+  description?: string;
   price: number;
   discountPercentage: number;
   rating: number;
@@ -11,6 +11,6 @@ export class Product {
   images: string[];
 }
 
-export class ProductOutDto extends Product {
+export class ProductOutDto extends ProductDto {
   id: string;
 }
